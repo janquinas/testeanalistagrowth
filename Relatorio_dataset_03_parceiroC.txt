@@ -1,0 +1,61 @@
+Olá Time,
+
+Como Analista de Growth Sênior, realizei a análise do teste A/B para o Parceiro C, avaliando o impacto de diferentes estratégias de cashback. O objetivo é identificar qual variante oferece o melhor equilíbrio entre engajamento do usuário e sustentabilidade do negócio.
+
+---
+
+**RELATÓRIO GERENCIAL: ANÁLISE DO TESTE A/B - OTIMIZAÇÃO DE CASHBACK PARA O PARCEIRO C**
+
+**Período da Análise:** 01 de Julho de 2011 a 14 de Agosto de 2011
+
+**Objetivo do Teste:** Avaliar o impacto de duas diferentes políticas de cashback (Grupo 1 vs. Grupo 2) sobre métricas chave como número de compradores, vendas totais, comissão gerada e, crucialmente, a receita líquida para o Méliuz.
+
+**Metodologia:**
+O teste A/B foi conduzido com dois grupos de usuários expostos ao Parceiro C:
+*   **Grupo 1 (Controle/Baseline):** Seguiu a política de cashback existente, onde o cashback representa uma parcela da comissão recebida pelo Méliuz.
+*   **Grupo 2 (Variante):** Implementou uma política de cashback onde o valor do cashback é igual à comissão total recebida pelo Méliuz, ou seja, 100% de cashback da comissão.
+
+**Métricas Analisadas:**
+*   Número total de compradores
+*   Total de Vendas (Gerado para o Parceiro)
+*   Comissão Total (Receita bruta para o Méliuz)
+*   Cashback Total (Custo para o Méliuz)
+*   **Receita Líquida Méliuz (Comissão Total - Cashback Total)**
+*   Média de Receita Líquida por Comprador
+
+**Resultados Chave:**
+
+| Métrica                         | Grupo 1 (Controle) | Grupo 2 (Variante) | Diferença Absoluta | Diferença Percentual |
+| :------------------------------ | :----------------- | :----------------- | :----------------- | :------------------- |
+| **Total de Compradores**        | 3.502              | 3.737              | +235               | +6,71%               |
+| **Vendas Totais (R$)**          | R$ 1.410.669       | R$ 1.440.916       | +R$ 30.247         | +2,14%               |
+| **Comissão Total (R$)**         | R$ 98.747          | R$ 100.864         | +R$ 2.117          | +2,14%               |
+| **Cashback Total (R$)**         | R$ 70.533          | R$ 100.864         | +R$ 30.331         | +43,00%              |
+| **Receita Líquida Méliuz (R$)** | **R$ 28.214**      | **R$ 0**           | **-R$ 28.214**     | **-100%**            |
+| **Receita Líquida/Comprador**   | R$ 8,06            | R$ 0               | -R$ 8,06           | -100%                |
+
+**Análise e Discussão:**
+
+O teste revelou alguns pontos importantes:
+
+1.  **Engajamento e Vendas do Parceiro:** O **Grupo 2** (com 100% de cashback) conseguiu atrair um número significativamente maior de compradores (+6,71%) e gerou um volume ligeiramente maior de vendas totais para o parceiro (+2,14%). Isso sugere que a promessa de "cashback total da comissão" é altamente atrativa para os usuários.
+2.  **Comissão Bruta para o Méliuz:** Consequentemente, a comissão bruta recebida pelo Méliuz no Grupo 2 também foi marginalmente maior (+2,14%).
+3.  **IMPACTO CRÍTICO NA RECEITA LÍQUIDA DO MÉLIUZ:** Este é o ponto mais relevante.
+    *   No **Grupo 1**, o Méliuz reteve R$ 28.214 de receita líquida, o que corresponde a aproximadamente 28,6% da comissão total (R$ 70.533 de cashback sobre R$ 98.747 de comissão).
+    *   No **Grupo 2**, devido à política de 100% de cashback sobre a comissão, a **Receita Líquida do Méliuz foi ZERO**. Isso significa que, embora mais usuários tenham comprado e mais vendas tenham sido geradas para o parceiro, o Méliuz não obteve lucro algum dessas transações, perdendo toda a margem de contribuição.
+
+**Conclusão:**
+
+Embora o Grupo 2 tenha demonstrado um maior poder de atração de usuários e um pequeno aumento nas vendas brutas para o parceiro, ele compromete fundamentalmente o modelo de negócio do Méliuz ao zerar a receita líquida. Crescimento sem lucratividade é insustentável a longo prazo, inviabilizando operações, investimentos em tecnologia, marketing e equipe.
+
+O Grupo 1, por outro lado, manteve uma margem de receita líquida saudável, o que é essencial para a sustentabilidade e crescimento estratégico do Méliuz.
+
+**Recomendação:**
+
+A variante a ser escalada para 100% é o **Grupo 1**.
+
+É fundamental para o Méliuz garantir que suas iniciativas de growth não apenas atraiam usuários, mas também contribuam positivamente para a receita líquida. Podemos explorar futuras iterações com diferentes percentuais de cashback que busquem um equilíbrio entre engajamento do usuário e lucratividade, mas a política de 100% de cashback da comissão é inviável.
+
+---
+
+[LINHA_CSV]Otimização Cashback Parceiro C;Grupo 1;Grupo 2 resultou em zero receita líquida para Méliuz, apesar de mais compradores, devido a 100% de cashback. Grupo 1 é sustentável e lucrativo.

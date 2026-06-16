@@ -45,3 +45,23 @@ java AnalistaGrowth dataset_01_parceiroA.csv
 ```
 - Recomendo manter o arquivo e a classe com o mesmo nome (`AnalistaGrowth.java` / `AnalistaGrowth`) para evitar confusão.
 - Em caso de falha HTTP ou resposta inesperada, o programa imprime a resposta bruta para diagnóstico.
+
+##  Como Visualizar a Planilha de Controle Consolidadada
+
+O programa gera de forma totalmente automatizada o arquivo centralizador chamado `controle_testes.csv` acumulando o resumo estruturado de todos os parceiros à medida que são processados. 
+
+Para visualizar os dados formatados em colunas e linhas perfeitas, você pode abrir o arquivo utilizando qualquer um dos dois métodos abaixo:
+
+### Opção 1: Pelo Google Planilhas 
+1. Acesse o seu [Google Drive](https://drive.google.com/).
+2. Faça o upload do arquivo `controle_testes.csv` gerado na pasta do seu projeto.
+3. Clique duas vezes sobre o arquivo enviado e escolha a opção **"Abrir com o Google Planilhas"** no topo da tela.
+4. O Google interpretará os separadores de ponto e vírgula (`;`) automaticamente e separará os dados em colunas perfeitas (`Nome do Teste`, `Variante Vencedora`, `Justificativa`).
+
+### Opção 2: Pelo Microsoft Excel
+Caso abra diretamente no Microsoft Excel e as informações apareçam grudadas em uma única linha, siga este ajuste rápido de importação:
+1. Abra um arquivo em branco no Excel.
+2. Vá até a aba **Dados** no menu superior e clique em **De Texto/CSV**.
+3. Selecione o arquivo `controle_testes.csv` na pasta do seu projeto e clique em **Importar**.
+4. Na janela de visualização que abrir, certifique-se de que o campo **Delimitador** esteja marcado como **Ponto e vírgula**.
+5. Clique em **Carregar** e a sua tabela de controle estará totalmente estruturada.

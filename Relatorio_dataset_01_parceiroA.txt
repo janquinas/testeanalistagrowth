@@ -1,0 +1,56 @@
+Prezada equipe de Growth,
+
+Segue a análise do Teste A/B realizado com as três variantes para o Parceiro A, com o objetivo de identificar a estratégia de cashback mais eficaz para o Meliuz.
+
+---
+
+**RELATÓRIO GERENCIAL: Análise do Teste A/B de Estratégias de Cashback para o Parceiro A**
+
+**1. Objetivo do Teste:**
+Avaliar o desempenho de três diferentes estratégias (representadas pelos Grupos 1, 2 e 3) em termos de aquisição de compradores, volume de vendas, comissão gerada e, crucialmente, a lucratividade líquida para o Meliuz, visando identificar a variante mais sustentável para escalabilidade.
+
+**2. Metodologia:**
+Os dados brutos foram agregados por grupo de usuários para o período de 01 de janeiro a 02 de abril de 2011. Foram analisadas as seguintes métricas principais:
+
+*   **Compradores:** Número total de usuários que realizaram compras.
+*   **Vendas Totais:** Valor bruto total das vendas.
+*   **Comissão Total:** Receita bruta do Meliuz.
+*   **Cashback Total:** Custo total do Meliuz com cashback.
+*   **Margem Bruta (Comissão - Cashback):** Lucro líquido para o Meliuz antes de outras despesas.
+*   **Margem Bruta por Comprador:** Lucro líquido médio por usuário.
+*   **Cashback % da Comissão:** Percentual da comissão que é repassado como cashback (indicador de eficiência).
+
+**3. Dados Agregados e Métricas Calculadas:**
+
+| Métrica                      | Grupo 1         | Grupo 2         | Grupo 3         |
+| :--------------------------- | :-------------- | :-------------- | :-------------- |
+| **Compradores Totais**       | 5.698           | 6.023           | **6.500**       |
+| **Vendas Totais**            | R$ 3.064.095    | R$ 3.456.980    | **R$ 3.629.407**|
+| **Comissão Total**           | R$ 338.257      | R$ 380.007      | **R$ 399.202**  |
+| **Cashback Total**           | R$ 103.541      | R$ 189.967      | **R$ 260.672**  |
+| **Margem Bruta (Meliuz)**    | **R$ 234.716**  | R$ 190.040      | R$ 138.530      |
+|                                |                 |                 |                 |
+| **Margem Bruta por Comprador** | **R$ 41,19**    | R$ 31,55        | R$ 21,31        |
+| **Cashback % da Comissão**   | **30,61%**      | 49,99%          | 65,29%          |
+
+**4. Análise de Desempenho:**
+
+*   **Compradores e Vendas Totais:** O **Grupo 3** demonstrou o maior número de compradores e o maior volume de vendas totais, seguido pelo Grupo 2 e, por último, o Grupo 1. Isso sugere que a estratégia aplicada no Grupo 3 foi a mais eficaz em impulsionar o volume bruto de transações e a conversão de usuários.
+*   **Comissão Total:** Em linha com as vendas, o **Grupo 3** gerou a maior comissão bruta para o Meliuz, seguido pelo Grupo 2.
+*   **Cashback Total:** O **Grupo 3** também resultou no maior desembolso total de cashback, significativamente superior aos outros grupos.
+*   **Métricas de Lucratividade (Crucial para o Meliuz):**
+    *   Apesar de gerar o menor volume bruto, o **Grupo 1** apresentou a **maior Margem Bruta total para o Meliuz (R$ 234.716)**.
+    *   A **Margem Bruta por Comprador** também foi significativamente maior no **Grupo 1 (R$ 41,19)**, indicando que cada comprador gerou mais lucro para o Meliuz nesta variante.
+    *   O **Cashback como % da Comissão** reforça esta conclusão: o Grupo 1 utilizou apenas 30,61% da comissão para pagar cashback, enquanto o Grupo 2 usou quase 50% e o Grupo 3, alarmantes 65,29%. Isso significa que o Grupo 1 é o mais eficiente na retenção da receita.
+
+**5. Conclusão e Recomendação:**
+
+Embora o Grupo 3 tenha impulsionado o maior número de compradores e vendas, a estratégia de cashback adotada nesse grupo resultou em uma proporção excessivamente alta de comissão sendo revertida em cashback, impactando severamente a lucratividade do Meliuz. O mesmo, em menor grau, pode ser dito do Grupo 2.
+
+Como analista de Growth, o foco principal do Meliuz é o crescimento sustentável e lucrativo. A estratégia do **Grupo 1**, apesar de um volume bruto menor, demonstra uma saúde financeira muito superior, gerando a maior margem bruta total e por comprador. Escalar uma estratégia que resulta em alta queima de margem, como no Grupo 3, não é sustentável a longo prazo para o negócio.
+
+**Recomendação:** Recomendo escalar o **Grupo 1** para 100% dos usuários. Esta variante otimiza a relação entre o incentivo ao usuário e a saúde financeira do Meliuz, garantindo uma operação mais lucrativa. Futuramente, podemos explorar micro-ajustes ou novos testes para aumentar o volume de compradores e vendas do Grupo 1 sem comprometer sua excelente margem.
+
+---
+
+[LINHA_CSV];Teste A/B de Estratégias de Cashback Parceiro A;Grupo 1;Maior lucratividade (comissão - cashback) e melhor retenção de margem.

@@ -1,0 +1,65 @@
+**Relatório Gerencial de Teste A/B - Análise de Performance do Parceiro B**
+
+**Para:** Liderança de Growth, Meliuz
+**De:** [Seu Nome], Analista de Growth Sênior
+**Data:** 2011-07-01
+**Assunto:** Recomendação de variante para escala no Teste A/B com Parceiro B
+
+---
+
+**1. Resumo Executivo**
+
+Este relatório apresenta a análise dos resultados de um teste A/B realizado com o Parceiro B entre 01 de maio e 30 de junho de 2011. O objetivo foi avaliar o impacto de diferentes abordagens (Grupo 1, Grupo 2 e Grupo 3) na performance de vendas, comissão e cashback. A análise dos dados agregados e de métricas-chave de rentabilidade demonstra claramente que o **Grupo 1 (Baseline)** foi a variante de maior sucesso. Ele gerou o maior volume de compradores, as maiores vendas totais e, crucialmente, a maior receita líquida (comissão - cashback) para o Méliuz.
+
+**2. Metodologia do Teste**
+
+O teste A/B consistiu em três grupos distintos de usuários, cada um exposto a uma variante específica da oferta ou experiência com o Parceiro B. As métricas coletadas incluíram: número de compradores, comissão gerada, cashback concedido e vendas totais. O período de análise abrange 61 dias (maio e junho).
+
+**3. Análise Detalhada dos Resultados**
+
+A seguir, apresentamos os dados agregados para cada grupo, seguidos de métricas derivadas essenciais para a tomada de decisão:
+
+**3.1. Dados Agregados por Grupo (01/05/2011 - 30/06/2011)**
+
+| Métrica               | Grupo 1 (Baseline) | Grupo 2         | Grupo 3         |
+| :-------------------- | :----------------- | :-------------- | :-------------- |
+| **Total Compradores** | **5.752**          | 4.924           | 4.858           |
+| **Total Comissão**    | **R$ 375.348,00**  | R$ 289.203,00   | R$ 289.326,00   |
+| **Total Cashback**    | R$ 136.559,00      | R$ 157.748,00   | **R$ 236.444,00** |
+| **Total Vendas**      | **R$ 3.388.579,00**| R$ 2.605.739,00 | R$ 2.674.858,00 |
+
+**3.2. Métricas Derivadas para Análise de Performance**
+
+Para entender a rentabilidade e eficiência de cada grupo, calculamos as seguintes métricas:
+
+| Métrica                                   | Grupo 1 (Baseline) | Grupo 2              | Grupo 3              |
+| :---------------------------------------- | :----------------- | :------------------- | :------------------- |
+| **Ticket Médio (AOV)**                    | R$ 589,12          | R$ 529,19            | R$ 550,61            |
+| **Comissão por Comprador**                | R$ 65,25           | R$ 58,73             | R$ 59,55             |
+| **Cashback por Comprador**                | R$ 23,74           | R$ 32,04             | R$ 48,67             |
+| **Receita Líquida (Comissão - Cashback)** | **R$ 238.789,00**  | R$ 131.455,00        | R$ 52.882,00         |
+| **Receita Líquida por Comprador**         | **R$ 41,51**       | R$ 26,70             | R$ 10,88             |
+| **% Comissão sobre Vendas**               | 11,08%             | 11,10%               | 10,82%               |
+| **% Cashback sobre Vendas**               | 4,03%              | 6,05%                | 8,84%                |
+| **% Margem (Receita Líquida) sobre Vendas** | **7,04%**          | 5,04%                | 1,98%                |
+
+**3.3. Principais Observações:**
+
+*   **Volume:** O Grupo 1 atraiu o maior número de compradores e gerou as maiores vendas totais.
+*   **Comissão:** A comissão total e por comprador foi mais alta no Grupo 1.
+*   **Cashback:** O Grupo 3 ofereceu o maior valor total e por comprador em cashback, seguido pelo Grupo 2. O Grupo 1 manteve o menor payout de cashback.
+*   **Rentabilidade (Receita Líquida):** Esta é a métrica mais crucial para o Méliuz. O **Grupo 1 gerou uma receita líquida de R$ 238.789,00**, o que é significativamente superior aos R$ 131.455,00 do Grupo 2 e aos R$ 52.882,00 do Grupo 3.
+*   **Eficiência (Receita Líquida por Comprador):** O Grupo 1 também demonstrou a maior eficiência, gerando R$ 41,51 de receita líquida por comprador, em contraste com R$ 26,70 do Grupo 2 e meros R$ 10,88 do Grupo 3.
+*   **Margem:** A margem percentual sobre vendas do Grupo 1 (7,04%) é substancialmente maior, indicando uma operação mais saudável e lucrativa. As ofertas dos Grupos 2 e 3, embora possam ter atraído consumidores pelo cashback, reduziram drásticamente a margem do Méliuz.
+
+**4. Recomendação**
+
+Com base na análise abrangente dos dados, que mostra uma superioridade consistente em volume, comissão e, principalmente, **rentabilidade (Receita Líquida e Receita Líquida por Comprador)**, a recomendação é escalar o **Grupo 1** para 100% da base de usuários para as interações com o Parceiro B. As variantes dos Grupos 2 e 3, apesar de potencialmente aumentarem o cashback percebido pelo usuário, resultam em uma erosão inaceitável da receita líquida para o Méliuz.
+
+**5. Próximos Passos (Sugestão)**
+
+Sugere-se investigar os fatores exatos que levaram o Grupo 1 a ter um maior número de compradores e um ticket médio mais alto, mesmo com um cashback proporcionalmente menor. Isso pode indicar uma proposta de valor mais forte em outros aspectos que não apenas a porcentagem de cashback.
+
+---
+
+[LINHA_CSV];Teste A/B Parceiro B;Grupo 1;O Grupo 1 demonstrou a maior Receita Líquida (R$ 238.789,00) e Receita Líquida por Comprador (R$ 41,51), indicando maior rentabilidade e eficiência.

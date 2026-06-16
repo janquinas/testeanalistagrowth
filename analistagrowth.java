@@ -19,12 +19,6 @@ public class analistagrowth {
    
         String apiKey = System.getenv("GEMINI_API_KEY"); 
 
-        if (apiKey == null || apiKey.isEmpty()) {
-            System.out.println("Erro: A variavel de ambiente GEMINI_API_KEY nao foi configurada.");
-            System.out.println("Configure-a no terminal antes de rodar o programa.");
-            return;
-        }
-
         try {
             System.out.println("1. Lendo o arquivo: " + arquivoCsv + "...");
             String dadosDoArquivo = Files.readString(Path.of(arquivoCsv));
